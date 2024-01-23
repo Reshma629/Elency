@@ -1,0 +1,367 @@
+body{
+
+    background-image: url("./image2/hero-bg.png");
+    background-repeat: no-repeat;
+}
+.navbar{
+    position: fixed;
+    /* border: 2px solid; */
+    /* background-color: lavender; */
+}
+.navbar-brand{
+    margin-left: 60px;
+}
+.navbar-nav{
+    /* margin-left: 60px; */
+    padding-left: 180px;
+    font-size: 18px;
+    
+}
+
+.btn-outline-success{
+    color: white;
+    border: none;
+    width: 130px;
+    font-size: 14px;
+    margin-right: 80px;
+    background-color: crimson;
+    border-radius: 20px !important;
+}
+.learnmore{
+    top: 85%;
+    position: absolute;
+    left: 10%;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: crimson;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.round{
+    position: absolute;
+    border-radius: 50%;
+    visibility: visible;
+    filter: drop-shadow(-5px 0px 0px crimson);
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 80%;
+    bottom: 5%;
+    background-color: black;
+}
+.time{
+    position: absolute; 
+    top: 84%; 
+    left: 83%;
+    color: white;
+}
+.read{
+    position: absolute;
+    top: 1480px;
+    left: 680px;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: crimson;
+    color: white;
+}
+.service{
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 260%;
+    background-color: crimson;
+}
+.box{
+    border-radius: 5px; 
+    transform: skewx(3deg);  
+    background-color: white;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: black;
+    
+}
+.box img{
+    margin-left: 30px;
+    margin-top: 34px;
+}
+.box h5{
+    color: crimson;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-decoration: underline;
+  
+}
+.box p{
+    margin-left: 30px;
+    color: gray;
+}
+.box h6{
+    margin-left: 30px;
+    color: crimson;
+}
+.halfborder{
+    height: 200px;
+    width: 82%;
+    margin-left: 8%;
+    margin-top: 65%;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+}
+.halfborder img{
+    position: absolute;
+}
+.halfborder h1{
+    position: absolute;
+}
+.graybox{
+    border: 2px solid none;
+    height: 105%;
+    width: 100%;
+    margin-top: 73%;
+    background-color: lightgray;
+}
+.fivebutton{
+    border-radius: 18px;
+    border: none;
+    background-color: lightgrey;
+    margin-top: 2%;
+}
+.fivebutton:hover{
+    border: 2px solid crimson;
+}
+.load{
+    margin-right: 5%;
+    margin-left: 45%;
+    margin-top: 3%;
+    border-radius: 18px;
+    width: 10%;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: crimson;
+}
+.twobutton{
+    border-radius: 18px;
+    border: none;
+    background-color: white;
+    margin-top: 2%;
+}
+.twobutton:hover{
+    border: 1px solid crimson;
+}
+.onebox{
+    border: 2px solid none;
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    top: 240%;
+    left: 10%;
+}
+.twobox{
+    border: 2px solid none;
+    height: 500px;
+    width: 350px;
+    margin-left: 38%;
+    position: absolute;
+    top: 240%;
+}
+.threebox{
+    border: 2px solid none;
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    right: 8%;
+    top: 240%;
+}
+.purchase{
+    border-radius: 18px;
+    width:45%;
+    height: 8%;
+    background-color: crimson;
+    color: white;
+    margin-left: 30%;
+    margin-top: 10%;
+    border: none;
+}
+.onebox:hover{
+    background-color: black;
+    color: white;
+
+}
+.twobox:hover{
+    background-color: black;
+    color: white;
+}
+.threebox:hover{
+    background-color: black;
+    color: white;
+}
+.bgcolor{
+    background-image: url("./image2/subscribe-bg.png");
+    /* border: 2px solid; */
+    height: 33%;
+    width: 100%;
+    margin-top: 50%;
+    overflow: hidden;
+    /* opacity: .1; */
+    filter: brightness(10% );
+    background-color: black;
+}
+
+.box1{
+    height: 300px;
+    width: 340px;
+    background-color: white;
+    position: absolute;
+    top: 360%;
+    left: 11%;
+}
+.sectionsmall h6{
+    border-radius: 50%;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    margin-left: 40px;
+}
+.box1:hover{
+    background-color: black;
+    color: white;
+}
+.box2{
+    height: 300px;
+    width: 340px;
+    background-color: white;
+    position: absolute;
+    left: 38%;
+    bottom: 0%;
+    top: 360%;
+}
+.box2:hover{
+    background-color: black;
+    color: white;
+}
+.box3{
+    height: 300px;
+    width: 340px;
+    background-color: white;
+    position: absolute;
+    left: 65%;
+    bottom: 0%;
+    top: 360%;
+}
+.box3:hover{
+    background-color: black;
+    color: white;
+}
+/* .smallradiusone:hover{
+    color: crimson;
+    background-color: white;
+    
+}
+.smallradiusstwo:hover{
+    background-color: white;
+    color: crimson;
+} */
+.smallradius{
+    border: 2px solid;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+   top: 400%;
+   bottom: 0%;
+   left: 45%;
+   padding-top: 3px;
+   padding-left: 8px;
+   color: crimson;
+}
+.smallradiuss{
+    border: 2px solid;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+   top: 400%;
+   bottom: 0%;
+   left: 50%;
+   padding-left: 8px;
+   padding-top: 3px;
+   color: crimson;
+}
+.twoimg{
+    height: 520px;
+    width: 520px;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+.twoimgs{
+    position: absolute;
+    height: 520px;
+    width: 520px;
+    left: 50%;
+    top: 445.5%;
+    bottom: 20%;
+} 
+.sept{
+    height: 30px;
+    width: 189px;
+    position: absolute;
+}
+.ayse{
+    height: 30px;
+    width: 188px;
+    margin-left: 14%;
+    margin-bottom: 10px;
+    position: absolute;
+}
+.comm{
+    height: 30px;
+    width: 140px;
+    margin-left: 73%;
+}
+.smallth{
+    border: 2px solid black;
+    height: 10%;
+    width: 99.3%;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}
+.twoimgs img:hover{
+    filter: brightness(70%);
+}
+.twoimg img:hover{
+    filter: brightness(70%);
+}
+.va{
+    border-radius: 18px;
+    width: 12%;
+    height: 40px;
+    border: none; 
+    margin-left: 42%;
+    color: white; 
+    background-color: crimson; 
+    font-size: 20px;
+    margin-top: 2%;
+}
+.last{
+    background-image: url("./image2/footer-shape.png");
+    filter: brightness(200%);
+    background-color: black;
+    height: 420px;
+    width: 100%;
+    margin-top: 10%;
+}
+#inp{
+    background-color: grey;
+    border: none;
+    height: 40px;
+}
